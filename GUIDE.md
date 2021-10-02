@@ -32,6 +32,14 @@ Start apps
 
 Apps are available on http://localhost:4200.
 
+## Dependency graph
+
+```console
+nx dep-graph
+```
+
+The UI is available on http://localhost:4211.
+
 ### References
 
 - [Building Angular and React Applications Together With Nx]
