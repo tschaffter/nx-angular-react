@@ -40,6 +40,9 @@
     "reactapp-e2e": {
       "tags": [],
       "implicitDependencies": ["reactapp"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }

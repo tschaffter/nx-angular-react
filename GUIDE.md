@@ -32,6 +32,10 @@ Start apps
 
 Apps are available on http://localhost:4200.
 
+### References
+
+- [Building Angular and React Applications Together With Nx]
+
 ## Note on `nx` and `ng` commands
 
 ```console
@@ -79,3 +83,6 @@ Add support for Webpack 5
 npx nx g @nrwl/web:webpack5
 ```
 
+<!-- Links -->
+
+[Building Angular and React Applications Together With Nx]: https://nx.dev/l/a/examples/react-and-angular
