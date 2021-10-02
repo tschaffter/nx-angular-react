@@ -77,12 +77,6 @@ nx --version
 12.9.0
 ```
 
-Add support for Webpack 5
-
-```console
-npx nx g @nrwl/web:webpack5
-```
-
 <!-- Links -->
 
 [Building Angular and React Applications Together With Nx]: https://nx.dev/l/a/examples/react-and-angular
