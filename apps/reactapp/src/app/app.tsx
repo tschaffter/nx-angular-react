@@ -7,7 +7,7 @@ export function App() {
       <main>
         <div>
           <div style={{ textAlign: 'center' }}>
-            <happynrwl-greeting title={title} />
+            <ui-greeting title={title} />
 
             <img
               width="300"

@@ -6,4 +6,4 @@ export class GreetingElement extends HTMLElement {
   }
 }
 
-customElements.define('happynrwl-greeting', GreetingElement);
+customElements.define('ui-greeting', GreetingElement);
