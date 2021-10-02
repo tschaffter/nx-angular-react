@@ -1,5 +1,39 @@
 # Guide
 
+## Initial setup
+
+Create an empty nx workspace
+
+```console
+git config --global commit.gpgsign false  // Because of a bug with nx
+npx --ignore-existing create-nx-workspace nx-angular-react --preset=empty
+git config --global commit.gpgsign true
+```
+
+Add Angular app
+
+```console
+npm i -D @nrwl/angular
+nx g @nrwl/angular:app angularapp
+```
+
+Add React app
+
+```console
+npm i -D @nrwl/react
+nx g @nrwl/web:webpack5
+nx g @nrwl/react:app reactapp
+```
+
+Start apps
+
+- `nx serve angularapp`
+- `nx serve reactapp`
+
+Apps are available on http://localhost:4200.
+
+## Note on `nx` and `ng` commands
+
 ```console
 $ ng --version
 

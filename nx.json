@@ -33,6 +33,13 @@
     "angularapp-e2e": {
       "tags": [],
       "implicitDependencies": ["angularapp"]
+    },
+    "reactapp": {
+      "tags": []
+    },
+    "reactapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reactapp"]
     }
   }
 }
